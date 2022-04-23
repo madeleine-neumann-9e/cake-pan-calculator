@@ -1,0 +1,17 @@
+{
+  "name": "Cake Pan Calculator",
+  "short_name": "CPC",
+  "description": "Cake Pan Calculator",
+  "scope": "/cake-pan-calculator/",
+  "start_url": "/cake-pan-calculator/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+      {
+        "src": "/cake-pan-calculator/img/icon.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
