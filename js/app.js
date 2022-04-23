@@ -10,5 +10,8 @@ function calculate(e) {
   let sizePanA = parseFloat(widthFormOne) * parseFloat(lengthFormOne) * panHeight
   let sizePanB = parseFloat(widthFormTwo) * parseFloat(lengthFormTwo) * panHeight
 
-  document.getElementById('ingredientMultiply').innerHTML = `<span>${(sizePanB / sizePanA).toFixed(1)}</span>`;
+  document.getElementById('ingredientMultiply').innerHTML = `
+  <h3 class="mb-4">Multiply all ingredients with:</h3>
+  <span>${(sizePanB / sizePanA).toFixed(1)}</span>
+  `;
 }
